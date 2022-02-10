@@ -1,0 +1,25 @@
+:root {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.table-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #6b6b6b;
+  padding: 3px;
+  gap: 3px;
+  text-align: center;
+  overflow: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.table-header {
+  background-color: darkgrey;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.table-items {
+  background-color: lightgray;
+}
